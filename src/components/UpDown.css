@@ -1,0 +1,92 @@
+/* Updown.css */
+body {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Pretendard", sans-serif;
+}
+
+.container {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 100%;
+  max-width: 450px;
+}
+
+h1 {
+  color: #2d3436;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info-text {
+  color: #636e72;
+  margin-bottom: 25px;
+}
+
+.todo-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.todo-form input {
+  flex: 1;
+  padding: 15px;
+  border: 2px solid #dfe6e9;
+  border-radius: 12px;
+  font-size: 18px;
+  transition: border-color 0.3s;
+}
+
+.todo-form input:focus {
+  outline: none;
+  border-color: #6c5ce7;
+}
+
+.todo-form button {
+  padding: 0 25px;
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition:
+    transform 0.2s,
+    background 0.2s;
+}
+
+.todo-form button:hover {
+  background-color: #a29bfe;
+  transform: translateY(-2px);
+}
+
+.result-box {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 12px;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.message {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2d3436;
+}
+
+.count-badge {
+  color: #6c5ce7;
+  font-size: 14px;
+  font-weight: 600;
+}

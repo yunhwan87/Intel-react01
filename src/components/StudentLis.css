@@ -1,0 +1,27 @@
+.student-card {
+  border: 1px solid #e1f0ff;
+  background-color: #f8fbff;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 10px;
+  width: 160px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  display: inline-block;
+  vertical-align: top;
+  transition: transform 0.2s;
+}
+
+.student-card:hover {
+  transform: translateY(-5px);
+}
+
+.student-info {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.excellent-badge {
+  color: #ff9800;
+  font-weight: bold;
+  margin-left: 5px;
+}
