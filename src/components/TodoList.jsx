@@ -88,7 +88,7 @@ function TodoList() {
 
   return (
     <div className="container">
-      <h1>📝 To-Do List</h1>
+      <h1>📝 Dada's To-Do List</h1>
       <div className="todo-stats">
         남은 할 일: <strong>{leftCount}</strong>개
       </div>
