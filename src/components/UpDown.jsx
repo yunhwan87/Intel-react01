@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Updown.css";
+import "./UpDown.css";
 
 function UpDown() {
   const [inputValue, setInputValue] = useState("");
